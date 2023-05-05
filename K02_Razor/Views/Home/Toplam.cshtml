@@ -1,0 +1,41 @@
+﻿@page
+@{
+    ViewData["Title"] = "Toplam";
+
+    if (Request.Method == "POST")
+    {
+        var sayi1 = sayi1.; 
+    }
+}
+
+<html>
+    <body>
+        <form method="post">
+        <h1>Toplam</h1>
+        <hr />
+
+        <p>
+                <label for="sayi1">Sayı 1 : </label>
+                <input type="text" name="sayi1" />
+            </p>
+            
+            <p>
+                <label for="sayi2">Sayı 2 : </label>
+                <input type="text" name="sayi2" />
+
+            </p>
+            <p>
+                <input type="submit" value="Topla" asp-page-handler="Submit" />
+            </p>
+        </form>
+<p>
+    Toplam sonucu = @
+</p>
+    </body>
+
+
+</html>
+
+
+
+
