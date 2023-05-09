@@ -1,0 +1,32 @@
+﻿@model List<K07_Models.Models.Car>
+@*Benim model yapım*@
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Araba Listesi</h1>
+<br />
+<table class="table table-striped">
+    <tr>
+        <th>ID</th>
+        <th>Brand</th>
+        <th>Family</th>
+        <th>Year</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Brand</td>
+            <td>@item.Family</td>
+            <td>@item.Year</td>
+        </tr>
+    }
+
+</table>
