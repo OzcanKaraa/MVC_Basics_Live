@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>@ViewBag.Message</h1>
+<hr />
+<h1>@ViewBag.Message2</h1>
+<br />
+@foreach (var item in ViewData["Authors"] as List<Author>)
+{
+    <p>@item.AuthorID numaralı yazar adı @item.AuthorName dir</p>
+    <br />
+}
+
+<hr />
+<h1>@ViewBag.Message3</h1>
+<br />
+<p>Benim adım : @TempData["Name"] ve Yaşım : @TempData["Age"] dır</p>
