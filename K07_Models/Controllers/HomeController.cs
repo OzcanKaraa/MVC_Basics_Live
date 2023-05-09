@@ -32,6 +32,7 @@ namespace K07_Models.Controllers
             {
                 new Movie(){ Id=1, Title="Rüzgar gibi geçti", Description="Efsane bir film" , Year=1955},
                 new Movie(){ Id=2, Title="İyi Kötü Çirkin", Description="Efsane bir film 2" , Year=1960}
+
             };
 
             return View(movies); // Listem View tarafına gönderiliyor
