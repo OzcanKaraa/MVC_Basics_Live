@@ -7,7 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Database baðlantýsýný kullanabilmek için appsettings.json dosyasý altýndan ilgili deðeri öðrenmem lazým
-// 
 
 builder.Services.AddDbContext<EmployeeDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
 
