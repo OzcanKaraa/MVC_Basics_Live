@@ -1,5 +1,8 @@
 ﻿@model List<K07_Models.Models.Movie>
 
+    @* Kullanacağım Modeli en tepede tanımlıyorum..*@
+
+
 <h1>Film Listesi</h1>
 <br />
 <table class="table table-striped">
@@ -9,7 +12,7 @@
         <th>Description</th>
         <th>Year</th>
     </tr>
-    @foreach (var item in Model)
+    @foreach (var item in Model) // Yukarda tanımlamış olunan modeli kullanıyorum. Model olarak tanımlayarak...
     {
         <tr>
             <td>@item.Id</td>

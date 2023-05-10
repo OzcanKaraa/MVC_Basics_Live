@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K01_Proje_Yapisi", "K01_Pro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K02_Razor", "K02_Razor\K02_Razor.csproj", "{22EC49FE-0BD7-4D6C-B8B3-F1C7ADA833D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K05_DataTransferToViews", "K05_DataTransferToViews\K05_DataTransferToViews.csproj", "{68D8B7EA-1C13-4AE6-BED9-4DA98A9B1C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K05_DataTransferToViews", "K05_DataTransferToViews\K05_DataTransferToViews.csproj", "{68D8B7EA-1C13-4AE6-BED9-4DA98A9B1C82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K07_Models", "K07_Models\K07_Models.csproj", "{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K07_Models", "K07_Models\K07_Models.csproj", "{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K08_CF_EF", "K08_CF_EF\K08_CF_EF.csproj", "{2BD0675C-26F0-4FBD-B187-8910D632BC60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD0675C-26F0-4FBD-B187-8910D632BC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD0675C-26F0-4FBD-B187-8910D632BC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD0675C-26F0-4FBD-B187-8910D632BC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD0675C-26F0-4FBD-B187-8910D632BC60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
