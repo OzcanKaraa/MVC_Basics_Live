@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K01_Proje_Yapisi", "K01_Proje_Yapisi\K01_Proje_Yapisi.csproj", "{515180EE-FC58-4560-B5DD-9712F0608218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Proje_Yapisi", "K01_Proje_Yapisi\01_Proje_Yapisi.csproj", "{515180EE-FC58-4560-B5DD-9712F0608218}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K02_Razor", "K02_Razor\K02_Razor.csproj", "{22EC49FE-0BD7-4D6C-B8B3-F1C7ADA833D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Razor", "K02_Razor\02_Razor.csproj", "{22EC49FE-0BD7-4D6C-B8B3-F1C7ADA833D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K05_DataTransferToViews", "K05_DataTransferToViews\K05_DataTransferToViews.csproj", "{68D8B7EA-1C13-4AE6-BED9-4DA98A9B1C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_DataTransferToViews", "K05_DataTransferToViews\03_DataTransferToViews.csproj", "{68D8B7EA-1C13-4AE6-BED9-4DA98A9B1C82}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K07_Models", "K07_Models\K07_Models.csproj", "{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Models", "K07_Models\04_Models.csproj", "{DD31BF4A-D785-4C36-94B8-E8FF9B07B60F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K08_CF_EF", "K08_CF_EF\K08_CF_EF.csproj", "{2BD0675C-26F0-4FBD-B187-8910D632BC60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_CodeFirst", "K08_CF_EF\05_CodeFirst.csproj", "{2BD0675C-26F0-4FBD-B187-8910D632BC60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
